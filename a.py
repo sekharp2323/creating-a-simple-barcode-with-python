@@ -27,5 +27,5 @@ def generate_qr_code(data_to_encode, output_filename='qrcode.png'):
     qr_image.save(output_filename)
 
 # Example usage
-data_to_encode = 'chandrasekhar pachuru'
+data_to_encode = 'write something'
 generate_qr_code(data_to_encode, output_filename='my_qr.png')
